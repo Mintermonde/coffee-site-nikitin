@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1em;
+}
+.header{
+    width: 90vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+header nav{width: 100%;display: flex;justify-content: space-between;}
+header nav ul{
+    display: flex;
+    width: 60%;
+    font-family: "Playfair Display", serif;;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo{color: white;font-size: 2.2em;font-family: "Clicker Script", cursive; display: flex; justify-content: center; align-items: center;}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a,.button{
+    text-decoration: none;
+    color: white;
+}
+header .login {display: flex; align-items: center; font-family: "Playfair Display", serif; gap:10px;}
+header .login a{color: white;}
+header .login button a{
+    text-decoration: none;
+    color: black;
+
+}
+header .login button {
+    background-color: #f4b53f;
+    font-size: 0.9em;
+    font-family: "Playfair Display", serif;
+    display: inline-block;
+    width: 6vw;
+    height: 6vh;
+    border: none;
+    border-radius: 100vw;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 5px #F9C06A;
+}
+.section_coffee{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/coffee_image.png);
+    background-size: cover;
+    -webkit-box-shadow: 20px -18px 12px 26px rgba(0, 0, 0, 0.27) inset;
+    -moz-box-shadow: 20px -18px 12px 26px rgba(0, 0, 0, 0.27) inset;
+    box-shadow: 20px -18px 12px 26px rgba(0, 0, 0, 0.27) inset;
+    background-repeat: no-repeat;
+}
+.section_coffee_content{
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+    display: flex;
+    width: 35vw;
+    height: 38vh;
+    flex-direction: column;
+}
+.coffee_title{
+    font-family: "Clicker Script", cursive;;
+    font-size: 10em;
+}
+.coffee_text_best{font-family: "Playfair Display", serif;font-size: 1.3em;}
+.btn_order a {text-decoration: none;color: black;}
+.btn_order{
+    background-color: #f4b53f;
+    margin-top: 4%;
+    font-size: 0.9em;
+    font-family: "Playfair Display", serif;
+    display: inline-block;
+    padding: 0 32px;
+    width: 14vw;
+    height: 10vh;
+    line-height: 48px;
+    border: none;
+    border-radius: 100vw;
+    text-decoration: none;
+    box-shadow: 0 0 5px #F9C06A;
+}
+.section_discover{
+    background-color: #FFFEFC;
+}
+.section_container{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+    gap: 5%;
+    width: 100%;
+    height: 100%;
+}
+.section_d_left{
+    width: 100vw;
+    height: 100vh;
+}
+.section_d_right{
+    margin-left: 10%;
+    width: 100vw;
+    height: 100vh;
+}
+.section_d_right img{
+    width: 500px;
+    height: 500px;
+}
+.discover_button{
+    background-color: #f4b53f;
+    font-size: 1.1em;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 8vw;
+    height: 5vh;
+    line-height: 48px;
+    border: none;
+    border-radius: 100vw;
+    text-decoration: none;
+    box-shadow: 0 0 5px #F9C06A;
+}
+.discover_tb{
+    font-size: 3.8em;
+    font-family: "Playfair Display", serif;
+    font-weight: bold ;
+    color: #603809;
+    width: 50vw;
+    height: 15vh;
+}
+.discover_text{
+    font-size: 2.1em;
+    font-family: "Playfair Display", serif;
+    line-height: 1.5;
+    color: #707070;
+    width: 53vw;
+    height: 30vh;
+}
+.discover_blast{
+    width: 35vw;
+    height: 35vh;
+    position: relative;
+    right: 103vw;
+    top: 10vh;
+}
+.section_enjoy{
+    background-color: #FFFEFC;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -20%;
+}
+.enjoy_text{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    color: #603809;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-size: 5em;
+}
+.explore_text{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font-family: "Playfair Display", serif;
+    font-size: 2.2em;
+}
+.enjoy_coffee_spisok{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw;
+    font-family: "Playfair Display", serif;
+}
+.coffee_block{
+    border: 1px solid #F9C06A;
+    width: 20vw;
+    background-color: #fff7ec;
+    text-align: center;
+    margin: 0 auto;
+}
+.coffee_img{
+    width: 100%;
+    display: block;
+    margin-bottom: 18px;
+}
+.coffee_text{
+    font-size: 2em;
+    font-weight: 600;
+    color: #603809;
+    margin-bottom: 6px;
+}
+.coffee_sostav{
+    font-size: 1.3em;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+.coffee_value{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #603809;
+    margin-bottom: 18px;
+}
+.coffee_button{
+    position: relative;
+    top: 2vh;
+    background-color: #F9C06A;
+    color: #1E1E1E;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    display: inline-block;
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    border-radius: 100vw;
+    text-decoration: none;
+    box-shadow: 0 0 5px #f4b53f;
+}
+.section_different{
+    margin-top: -18%;
+    background-color: #FFFEFC;
+    width: 100vw;
+    height: 70vh;
+}
+.why_dif{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    color: #603809;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-size: 5em; 
+}
+.we_dont{
+    font-family: "Playfair Display", serif;
+    font-size: 2.2em; 
+    display: flex;
+    justify-content: center;
+    color: #707070;
+}
+.diff_spisok_container{
+    list-style: none;
+    margin: 0;
+    padding: 100px 0 0;  
+    display: flex;
+    justify-content: center;  
+    gap: 40px;  
+    font-family: "Playfair Display", serif;
+    background-color: #ffffff;
+}
+.diff_spisok{
+    margin: 0;
+    padding: 0;
+}
+.diff_spisok_block{
+    width: 320px;
+    height: 320px;
+    background-color: #FFF9F1;     
+    border: 1px solid #f1e1cc;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+}
+.diff_spisok_block_videl{
+    width: 320px;
+    height: 320px;
+    background-color: #FFEED8;
+    border: 1px solid #f1e1cc;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.diff_img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+.diff_title{
+    font-size: 1.9em;
+    font-weight: 600;
+    color: #603809;             
+    margin: 0 0 12px;
+}
+.diff_text{
+    width: 60%;
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #707070;
+    margin: 0;
+}
+.diff_niz_block{
+    text-align: center;
+}
+.great_ideas{
+    margin-top: 3%;
+    font-family: "Playfair Display", serif;
+    font-size: 2.2em; 
+    display: flex;
+    justify-content: center;
+    color: #707070;
+}
+.get_start{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-size: 3em; 
+    font-weight: bold;
+}
+.diff_button{
+    margin-top: 0vh;
+    background-color: #f4b53f;
+    font-size: 1.1em;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 8vw;
+    height: 5vh;
+    line-height: 48px;
+    border: none;
+    border-radius: 100vw;
+    text-decoration: none;
+    box-shadow: 0 0 5px #F9C06A;
+}
+.diff_blast{
+    width: 25vw;
+    height: 30vh;
+    position: relative;
+    transform: scaleX(-1);
+    top: 15vh;
+    left: 75vw;
+}
+.coffee_chance{
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 auto;
+    background-image: url(images/coffee_bg.png);
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.coffee_ch_left{
+    width: 50%;
+    height: 50%;
+    margin: 4%;
+}
+.ch_button{
+    background-color: #f4b53f;
+    font-size: 1.1em;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 8vw;
+    height: 5vh;
+    line-height: 48px;
+    border: none;
+    border-radius: 100vw;
+    text-decoration: none;
+    box-shadow: 0 0 5px #F9C06A;
+}
+.ch_text{
+    width: 70%;
+    height: 20%;
+    margin-bottom: 12%;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5em; 
+    font-weight: bold;
+    display: flex;
+    color: #FFFFFF;
+}
+.giv_text{
+    width: 70%;
+    height: 30%;
+    font-family: "Playfair Display", serif;
+    font-size: 1.7em;
+    display: flex;
+    color: #ffffff;
+}
+.coffee_ch_right{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+.ch_img{
+    position: absolute;
+    width: 370px;
+    height: 540px;
+}
+.ch_bean{
+    position: relative;
+    top: 30.5%;
+    left: 30.5%;
+}
+.section_perfection{
+    height: 90vh;
+    font-family: "Playfair Display", serif;
+}
+.rep{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rep h1{
+    color: #603809;
+    font-size: 54px;
+}
+.rep p{
+    color: #707070;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.mlo{
+    width: 91vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lorem{
+    width: 50vw;
+    height: 52vh;
+    background-color: #FFF9F1;
+    border: 1px solid #F9C06A;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lpoq{
+    width: 40vw;
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lorem p{
+    font-size: 18px;
+    color: #707070;
+    line-height: 36px;
+}
+.Lorem h1{
+    color: #603809;
+    font-size: 32px;
+    height: 6vh;
+}
+.Lorem h2{
+    color: #707070;
+    font-size: 20px;
+}
+
+.jonny{
+    position: relative;
+    top: 5vh;
+}
+.knopka{
+    position: relative;
+    left: 7vw;
+    width: 82px;
+    height: 80px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 16px;
+}
+.knopka2{
+    position: relative;
+    left: 52vw;
+    width: 82px;
+    height: 80px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 16px;
+}
+.Lorem h3{
+    color: #603809;
+    font-size: 90px;
+    position: relative;
+    right: 20vw;
+    top: 10vh;
+}
+.subscribe{
+    background-image: url(images/Group\ 46.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 35vh;
+}
+.sub{
+    width: 96vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribe{
+    font-family: "Playfair Display", serif;
+}
+.ribe h1{
+    color: white;
+    font-size: 54px;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+}
+.ribe p{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+}
+.bublik{
+    height: 8vh;
+}
+.bublik .ent{
+    width: 760px;
+    height: 60px;
+    background-color: #FFF9F1;
+    border: 1px solid #FFF9F1;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    color: #707070;
+}
+.bublik .suba{
+    position: relative;
+    left: 27vw;
+    bottom: 6.2vh;
+    width: 250px;
+    height: 60px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    color: #603809;
+}
+.pnw{
+    position: relative;
+    bottom: 15vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+}
+.beae{
+    background-image: url(images/fotter_image.png);
+    height: 70vh;
+    background-color:#603809;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gho{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.aweq{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btop{
+    width: 19vw;
+    height: 25vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.btop h1{
+    font-size: 54px;
+    color: white;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 8vh;
+}
+.btop p{
+    color: white;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    height: 14vh;
+}
+.About{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Playfair Display", serif;
+}
+.About h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.About p {
+    color: white;
+    font-size: 18px;
+}
+.Company{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Playfair Display", serif;
+}
+.Company h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.Company p{
+    color: white;
+    font-size: 18px;
+}
+.Contact_Us{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Playfair Display", serif;
+}
+.Contact_Us h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.Contact_Us p{
+    color: white;
+    font-size: 18px;
+    width: 19vw;
+}
