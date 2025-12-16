@@ -26,7 +26,7 @@ header nav ul{
     justify-content: space-around;
     align-items: center;
 }
-header .logo{color: white;font-size: 2.2em;font-family: "Clicker Script", cursive; display: flex; justify-content: center; align-items: center;}
+header .logo{color: white;font-size: 3.2em;font-family: "Clicker Script", cursive; display: flex; justify-content: center; align-items: center;}
 header nav ul li{
     list-style: none;
 }
@@ -114,7 +114,7 @@ header .login button {
     height: 100vh;
 }
 .section_d_right{
-    margin-left: 10%;
+    margin-left: 7%;
     width: 100vw;
     height: 100vh;
 }
@@ -150,7 +150,7 @@ header .login button {
     line-height: 1.5;
     color: #707070;
     width: 53vw;
-    height: 30vh;
+    height: 32vh;
 }
 .discover_blast{
     width: 35vw;
@@ -479,14 +479,13 @@ header .login button {
     color: #707070;
     font-size: 20px;
 }
-
 .jonny{
     position: relative;
     top: 5vh;
 }
 .knopka{
     position: relative;
-    left: 7vw;
+    left: 9vw;
     width: 82px;
     height: 80px;
     background-color: #F9C06A;
@@ -504,7 +503,7 @@ header .login button {
 }
 .Lorem h3{
     color: #603809;
-    font-size: 90px;
+    font-size: 130px;
     position: relative;
     right: 20vw;
     top: 10vh;
@@ -553,11 +552,12 @@ header .login button {
     justify-content: start;
     align-items: center;
     font-size: 20px;
+    padding-left: 15px;
     color: #707070;
 }
 .bublik .suba{
     position: relative;
-    left: 27vw;
+    left: 28.6vw;
     bottom: 6.2vh;
     width: 250px;
     height: 60px;
@@ -571,7 +571,7 @@ header .login button {
 .pnw{
     position: relative;
     bottom: 15vh;
-    width: 99vw;
+    width: 99.2vw;
     display: flex;
     justify-content: space-between;
 }
@@ -592,6 +592,7 @@ header .login button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -40vh;
 }
 .btop{
     width: 19vw;
@@ -659,4 +660,870 @@ header .login button {
     color: white;
     font-size: 18px;
     width: 19vw;
+}
+
+@media (min-width: 1439px) and (max-width: 1440px){
+    .section_d_right{
+        margin-left: 0%;
+    }
+    .discover_text{
+        height: 37vh;
+    }
+    .discover_button{
+        font-size: 1em;
+        height: 6vh;
+    }
+    .ch_bean{
+        top: 21.5%;
+        left: 7.5%;
+    }
+    .ch_text{
+        height: 35%;
+    }
+    .coffee_chance{
+        margin-top: 35%;
+    }
+    .coffee_ch_left{
+        height: 75%;
+    }
+    .giv_text{
+        height: 25%;
+    }
+    .ch_button{
+        height: 6vh;
+    }
+    .get_start{
+        height: 11vh;
+    }
+    .diff_button{
+        height: 6vh;
+    }
+    .bublik .suba {
+        left: 38vw;
+        bottom: 7vh;
+    }
+    .pnw{
+        width: 100vw;
+    }
+    .aweq{
+        width: 65vw;
+    }
+}
+
+@media  (min-width: 809px) and (max-width: 810px) {
+    .header {
+        width: 95vw;
+        height: 8vh;
+    }
+    header .logo {
+        font-size: 1.8em;
+    }
+    header nav ul {
+        width: 55%;
+        font-size: 0.9em;
+    }
+    header .login {
+        gap: 8px;
+        font-size: 0.85em;
+    }
+    header .login button {
+        width: 10vw;
+        height: 5vh;
+        font-size: 0.8em;
+    }
+    .section_coffee {
+        height: 90vh;
+        background-position: center;
+    }
+    .section_coffee_content {
+        margin-top: 10%;
+        margin-left: 8%;
+        width: 50vw;
+        height: 45vh;
+        font-size: 1em;
+    }
+    .coffee_title {
+        font-size: 7em;
+    }
+    .coffee_text_best {
+        font-size: 1.1em;
+    }
+    .btn_order {
+        width: 19vw;
+        height: 6vh;
+        font-size: 0.85em;
+        margin-top: 6%;
+    }
+    .section_container {
+        flex-direction: column;
+        margin-top: -15vh;
+        padding: 8vw;
+        gap: 3%;
+    }
+    .section_d_left {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .section_d_right {
+        width: 100%;
+        height: 100%;
+        margin-left: -45px;
+        display: flex;
+        justify-content: center;
+    }
+    .section_d_right img {
+        width: 350px;
+        height: 350px;
+    }
+    .discover_tb {
+        font-size: 2.8em;
+        width: 80vw;
+        height: auto;
+        margin: 0 auto;
+    }
+    .discover_text {
+        font-size: 1.6em;
+        width: 80vw;
+        height: auto;
+        margin: 20px auto;
+    }
+    .discover_button {
+        width: 18vw;
+        height: 6vh;
+        font-size: 0.95em;
+        margin: 0 auto;
+    }
+    .discover_blast {
+        display: none;
+    }
+    .section_enjoy {
+        height: 135vh;
+        margin-top: -10vh;
+        padding-bottom: 50px;
+    }
+    .enjoy_text {
+        text-align: center;
+        font-size: 3.5em;
+        height: auto;
+        padding: 30px 20px;
+    }
+    .explore_text {
+        text-align: center;
+        font-size: 1.7em;
+        padding: 0 20px 30px;
+    }
+    .enjoy_coffee_spisok {
+        flex-wrap: wrap;
+        padding: 3vw;
+        gap: 20px;
+        justify-content: center;
+    }
+    .coffee_block {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .coffee_text {
+        font-size: 1.6em;
+    }
+    .coffee_sostav {
+        font-size: 1.1em;
+    }
+    .coffee_value {
+        font-size: 1.1em;
+    }
+    .coffee_button {
+        width: 18vw;
+        height: 6vh;
+        font-size: 0.9em;
+    }
+    .section_different {
+        height: 120vh;
+        margin-top: 5%;
+        padding-bottom: 50px;
+    }
+    .why_dif {
+        font-size: 3.5em;
+        height: auto;
+        padding: 30px 20px;
+    }
+    .we_dont {
+        font-size: 1.7em;
+        padding: 0 20px 30px;
+    }
+    .diff_spisok_container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 20px 0;
+        gap: 20px;
+        justify-content: center;
+    }
+    .diff_spisok_block,
+    .diff_spisok_block_videl {
+        width: 35vw;
+        height: 30vh;
+    }
+    .diff_img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .diff_title {
+        font-size: 1.6em;
+    }
+    .diff_text {
+        font-size: 1.1em;
+        width: 70%;
+    }
+    .diff_niz_block {
+        margin-top: 40px;
+    }
+    .great_ideas {
+        font-size: 1.7em;
+        padding: 0 20px;
+    }
+    .get_start {
+        font-size: 2.5em;
+        height: auto;
+        padding: 20px;
+    }
+    .diff_button {
+        width: 18vw;
+        height: 6vh;
+        font-size: 0.95em;
+    }
+    .diff_blast {
+        display: none;
+    }
+    .coffee_chance {
+        margin-top: 10%;
+        height: auto;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .coffee_ch_left {
+        width: 90%;
+        height: auto;
+        margin: 4% auto;
+        text-align: center;
+    }
+    .ch_text {
+        width: 100%;
+        font-size: 2.8em;
+        height: auto;
+        margin-bottom: 20px;
+        justify-content: center;
+    } 
+    .giv_text {
+        width: 100%;
+        font-size: 1.4em;
+        height: auto;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .ch_button {
+        width: 20vw;
+        height: 6vh;
+        font-size: 0.95em;
+    }
+    .coffee_ch_right {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        position: relative;
+    }
+    .ch_img {
+        position: static;
+        width: 280px;
+        height: 410px;
+    }
+    .ch_bean {
+        display: none;
+    }
+    .section_perfection {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .rep {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px 30px;
+    }
+    .rep h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .rep p {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .mlo {
+        width: 90vw;
+        margin: 0 auto 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .Lorem {
+        width: 80vw;
+        height: auto;
+        padding: 30px 20px 50px;
+        position: relative;
+        right: 7vh;
+        z-index: 1;
+    }
+    .lpoq {
+        width: 90%;
+        height: auto;
+    }
+    .Lorem p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .Lorem h1 {
+        font-size: 28px;
+        height: auto;
+        margin-top: 20px;
+    }
+    .Lorem h2 {
+        font-size: 18px;
+    }
+    .Lorem h3 {
+        font-size: 70px;
+        right: 30vw;
+        top: 5vh;
+    }
+    .knopka {
+        left: 5vw;
+        width: 70px;
+        height: 70px;
+        z-index: 2;
+    }
+    .knopka2 {
+        left: 70vw;
+        width: 70px;
+        height: 70px;
+        z-index: 2;
+    }
+    .subscribe {
+        height: 70vh;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .sub {
+        width: 95vw;
+        height: 30vh;
+        padding: 20px;
+    }
+    .ribe h1 {
+        font-size: 40px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ribe p {
+        font-size: 18px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .bublik {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    
+    }
+    .bublik .ent {
+        width: 90%;
+        height: 55px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .bublik .suba {
+        position: static;
+        width: 90%;
+        height: 55px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .pnw {
+        display: none;
+    }
+    .beae {
+        height: auto;
+        padding: 50px 0;
+    }
+    .gho {
+        width: 95vw;
+    }
+    .aweq {
+        width: 90vw;
+        flex-wrap: wrap;
+        margin-top: -30vh;
+        gap: 30px;
+    }
+    .btop {
+        width: 45%;
+        height: auto;
+    }
+    .btop h1 {
+        font-size: 42px;
+        height: auto;
+    }
+    .btop p {
+        font-size: 13px;
+        height: auto;
+    }
+    .About,
+    .Company,
+    .Contact_Us {
+        width: 45%;
+        height: auto;
+        line-height: 30px;
+    }
+    .About h2,
+    .Company h2,
+    .Contact_Us h2 {
+        font-size: 22px;
+        height: auto;
+    }
+    .About p,
+    .Company p,
+    .Contact_Us p {
+        font-size: 16px;
+    }
+    .Contact_Us p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) and (min-width: 389px) {
+    .header {
+        width: 95vw;
+        height: 7vh;
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+    header nav {
+        width: 100%;
+        gap: 165px;
+    }
+    header .logo {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    header nav ul {
+        display: none;
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 0.75em;
+        gap: 10px;
+        justify-content: center;
+    }
+    header nav ul li {
+        margin: 5px;
+    }
+    header .login {
+        gap: 10px;
+        font-size: 0.75em;
+        width: 100%;
+        align-items: center;
+    }
+    header .login button {
+        width: 12vw;
+        height: 3vh;
+        text-align: center;
+        font-size: 0.75em;
+    }
+    .section_coffee {
+        height: 70vh;
+        background-position: center;
+    }
+    .section_coffee_content {
+        margin-top: 15%;
+        margin-left: 5%;
+        width: 90vw;
+        height: auto;
+        font-size: 0.8em;
+    }
+    .coffee_title {
+        font-size: 4em;
+    }
+    .coffee_text_best {
+        font-size: 0.95em;
+        margin-top: 10px;
+    }
+    .btn_order {
+        width: 45vw;
+        height: 5vh;
+        font-size: 1.4em;
+        margin-top: 15px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .section_container {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 15%;
+        gap: 20px;
+    }
+    .section_d_left {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .section_d_right {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .section_d_right img {
+        width: 250px;
+        height: 250px;
+    }
+    .discover_tb {
+        font-size: 1.8em;
+        width: 90vw;
+        height: auto;
+        margin: 0 auto;
+    }
+    .discover_text {
+        font-size: 1em;
+        width: 90vw;
+        height: auto;
+        margin: 15px auto;
+        line-height: 1.4;
+    }
+    .discover_button {
+        width: 35vw;
+        height: 5vh;
+        font-size: 0.8em;
+        margin: 0 auto;
+        line-height: 35px;
+    }
+    .discover_blast {
+        display: none;
+    }
+    .section_enjoy {
+        height: auto;
+        margin-top: 10%;
+        padding-bottom: 30px;
+    }
+    .enjoy_text {
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .explore_text {
+        font-size: 1.1em;
+        padding: 0 15px 20px;
+        text-align: center;
+    }
+    .enjoy_coffee_spisok {
+        flex-direction: column;
+        padding: 20px;
+        gap: 25px;
+    }
+    .coffee_block {
+        width: 85vw;
+        margin: 0 auto;
+    }
+    .coffee_text {
+        font-size: 1.4em;
+    }
+    .coffee_sostav {
+        font-size: 1em;
+    }
+    .coffee_value {
+        font-size: 1em;
+    }
+    .coffee_button {
+        width: 35vw;
+        height: 5vh;
+        font-size: 0.8em;
+        line-height: 35px;
+    }
+    .section_different {
+        height: auto;
+        margin-top: 10%;
+        padding-bottom: 30px;
+    }
+    .why_dif {
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .we_dont {
+        font-size: 1.1em;
+        padding: 0 15px 20px;
+        text-align: center;
+    }
+    .diff_spisok_container {
+        flex-direction: column;
+        padding: 30px 15px 0;
+        gap: 20px;
+    }
+    .diff_spisok_block,
+    .diff_spisok_block_videl {
+        width: 92vw;
+        height: auto;
+        padding: 30px 20px;
+    }
+    .diff_img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+    .diff_title {
+        font-size: 1.4em;
+    }
+    .diff_text {
+        font-size: 1em;
+        width: 80%;
+    }
+    .diff_niz_block {
+        margin-top: 30px;
+    }
+    .great_ideas {
+        font-size: 1.1em;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .get_start {
+        font-size: 1.6em;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+    .diff_button {
+        width: 35vw;
+        height: 5vh;
+        font-size: 0.8em;
+        line-height: 35px;
+    }
+    .diff_blast {
+        display: none;
+    }
+    .coffee_chance {
+        margin-top: 15%;
+        height: auto;
+        flex-direction: column;
+        padding: 30px 15px;
+        background-position: center;
+    }
+    .coffee_ch_left {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .ch_text {
+        width: 100%;
+        font-size: 1.8em;
+        height: auto;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .giv_text {
+        width: 100%;
+        font-size: 1em;
+        height: auto;
+        margin-bottom: 25px;
+        justify-content: center;
+        line-height: 1.4;
+    }
+    .ch_button {
+        width: 35vw;
+        height: 5vh;
+        font-size: 0.8em;
+        line-height: 35px;
+    }
+    .coffee_ch_right {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+    }
+    .ch_img {
+        position: static;
+        width: 200px;
+        height: 290px;
+    }
+    .ch_bean {
+        display: none;
+    }
+    .section_perfection {
+        height: auto;
+        padding: 30px 15px;
+    }
+    .rep {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .rep h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .rep p {
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .mlo {
+        width: 100vw;
+        margin: 20px auto;
+    }
+    .Lorem {
+        width: 90vw;
+        height: auto;
+        padding: 25px 15px;
+        position: relative;
+        right: 55px;
+        z-index: 1;
+    }
+    .lpoq {
+        width: 95%;
+        height: auto;
+    }
+    .Lorem p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .Lorem h1 {
+        font-size: 22px;
+        height: auto;
+        margin-top: 15px;
+    }
+    .Lorem h2 {
+        font-size: 15px;
+    }
+    .Lorem h3 {
+        font-size: 50px;
+        right: 35vw;
+        top: 3vh;
+    }
+    .jonny {
+        top: 3vh;
+    }
+    .knopka {
+        left: 0vw;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .knopka2 {
+        left: 71vw;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .subscribe {
+        height: 140vh;
+        padding: 30px 0;
+        background-position: center;
+    }
+    .sub {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .ribe h1 {
+        font-size: 28px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .ribe p {
+        font-size: 15px;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bublik {
+        height: auto;
+        width: 100%;
+    }
+    .bublik .ent {
+        width: 90vw;
+        height: 50px;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .bublik .suba {
+        position: static;
+        width: 90vw;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .pnw {
+        display: none;
+    }
+    .beae {
+        background-image: none;
+        height: auto;
+        padding: 40px 0;
+    }
+    .gho {
+        width: 100vw;
+    }
+    .aweq {
+        width: 90vw;
+        flex-direction: column;
+        margin-top: -110vh;
+        gap: 0px;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+    .btop {
+        width: 100%;
+        height: auto;
+    }
+    .btop h1 {
+        font-size: 36px;
+        height: auto;
+    }
+    .btop p {
+        font-size: 12px;
+        height: auto;
+        line-height: 1.5;
+    }
+    .About,
+    .Company,
+    .Contact_Us {
+        width: 100%;
+        height: auto;
+        line-height: 28px;
+    }
+    .About h2,
+    .Company h2,
+    .Contact_Us h2 {
+        font-size: 20px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .About p,
+    .Company p,
+    .Contact_Us p {
+        font-size: 15px;
+    }
+    .Contact_Us p {
+        width: 100%;
+    }
 }
